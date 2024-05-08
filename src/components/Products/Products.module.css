@@ -1,0 +1,12 @@
+.my-cards {
+	min-height: 500px;
+}
+
+.my-cards img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.my-cards img:hover {
+    transform: scale(1.1); 
+}
+

@@ -1,0 +1,43 @@
+/* Footer.module.css */
+
+.container {
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap; /* Pozwala treści na zawijanie się na mniejszych ekranach */
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align: center; /* Centruje tekst na mniejszych ekranach */
+}
+
+.content a {
+	color: #fff;
+	padding: 0 10px; /* Dodaje odstępy między linkami */
+	text-decoration: none; /* Usuwa podkreślenie */
+}
+
+.content a:hover {
+	text-decoration: underline; /* Dodaje podkreślenie na hover */
+}
+
+.content p {
+	margin: 5px 0; /* Dodaje margines wokół paragrafów */
+}
+.icon {
+    font-size: 24px; /* Zmienia rozmiar ikon */
+    padding: 0 10px;
+}
+
+.icon:hover {
+    color: #ccc; /* Zmienia kolor ikon przy najechaniu */
+}
+

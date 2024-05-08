@@ -1,0 +1,11 @@
+.container {
+	background-color: rgb(255, 255, 255);
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1500px;
+	margin: 0 auto;
+}
