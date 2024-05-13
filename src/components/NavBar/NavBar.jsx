@@ -22,12 +22,37 @@ export function NavBar() {
 						</Nav.Link>
 						<NavDropdown title="Sklep" id="basic-nav-dropdown">
 							<NavDropdown.Item href="/Coffee">
-								Kawa w ziarnach
+								Kawa ziarnista
 							</NavDropdown.Item>
+							<NavDropdown.Item href="/KawaMielona">Kawa mielona</NavDropdown.Item>
 							<NavDropdown.Item href="/Accessories">
 								Akcesoria do kawy
 							</NavDropdown.Item>
 							<NavDropdown.Item href="/Tea">Herbaty</NavDropdown.Item>
+							
+
+							
+						</NavDropdown>
+						<NavDropdown title="Kawiarki" id="basic-nav-dropdown">
+						<NavDropdown.Item href="/Steel">Stalowe</NavDropdown.Item>
+							<NavDropdown.Item href="/Aluminium">Aluminiowe</NavDropdown.Item>
+							<NavDropdown.Item href="/Electric">Elektryczne</NavDropdown.Item>
+							
+
+							
+						</NavDropdown>
+						<NavDropdown title="Ekspresy do kawy" id="basic-nav-dropdown">
+							<NavDropdown.Item href="/Coffee">
+							Ekspresy automatyczne
+							</NavDropdown.Item>
+							<NavDropdown.Item href="/KawaMielona">Ekspresy kolbowe</NavDropdown.Item>
+							<NavDropdown.Item href="/Accessories">
+								Ekspresy kapsułkowe
+							</NavDropdown.Item>
+							<NavDropdown.Item href="/Tea">Ekspresy przelewowe</NavDropdown.Item>
+							
+
+							
 						</NavDropdown>
 						<Nav.Link href="/Occasion">Okazje!</Nav.Link>
 						<Nav.Link href="#blog">Blog</Nav.Link>

@@ -10,6 +10,9 @@ import { Accessories } from "./components/Shop/Accessories/Accessories";
 import { Tea } from "./components/Shop/Tea/Tea";
 import {Occasion} from "./components/Occassion/Occassion";
 import "./App.css";
+import { Aluminium } from "./components/CoffeeMaker/Aluminium/Aluminium";
+import { Steel } from "./components/CoffeeMaker/Steel/Steel";
+import { Electric } from "./components/CoffeeMaker/Electric/Electric";
 
 
 
@@ -26,6 +29,9 @@ function App() {
 						<Route path="/Accessories" element = {<Accessories/>}/>
 						<Route path="/Tea" element = {<Tea/>}/>
 						<Route path="/Occasion" element = {<Occasion/>}/>
+						<Route path="/Aluminium" element = {<Aluminium/>}/>
+						<Route path="/Steel" element = {<Steel/>}/>
+						<Route path="/Electric" element = {<Electric/>}/>
 					</Routes>
 				</div>
 				<Footer />
