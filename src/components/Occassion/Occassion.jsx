@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
-import coffee1 from "../../assets/slaider1.jpg";
+import coffee1 from "../../assets/Okazje.jpg";
 import coffee2 from "../../assets/slaider2.jpg";
 import coffee3 from "../../assets/slaider3.jpg";
 
