@@ -1,0 +1,25 @@
+.navbar-container {
+	width: 100%;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.icon {
+	font-size: 1.1rem;
+	margin-left: 15px;
+}
+
+.orangeText {
+	color: rgb(212, 85, 0);
+}
+
