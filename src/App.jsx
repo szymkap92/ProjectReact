@@ -13,11 +13,14 @@ import "./App.css";
 import { Aluminium } from "./components/CoffeeMaker/Aluminium/Aluminium";
 import { Steel } from "./components/CoffeeMaker/Steel/Steel";
 import { Electric } from "./components/CoffeeMaker/Electric/Electric";
+<<<<<<< HEAD
 import { CoffeeM } from "./components/Shop/CoffeeM/CoffeeM";
 import { Automatic } from "./components/CoffeeMachine/Automatic/Automatic";
 import { Capsules } from "./components/CoffeeMachine/Capsules/Capsules";
 import { Kolbowe } from "./components/CoffeeMachine/Kolbowe/Kolbowe";
 import { Przelewowe } from "./components/CoffeeMachine/Przelewowe/Przelewowe";
+=======
+>>>>>>> 98a69c8f072c75003617c341a459b79d50f2ea7a
 
 
 
@@ -37,11 +40,14 @@ function App() {
 						<Route path="/Aluminium" element = {<Aluminium/>}/>
 						<Route path="/Steel" element = {<Steel/>}/>
 						<Route path="/Electric" element = {<Electric/>}/>
+<<<<<<< HEAD
 						<Route path="/CoffeeM" element = {<CoffeeM/>}/>
 						<Route path="/Automatic" element = {<Automatic/>}/>
 						<Route path="/Capsules" element = {<Capsules/>}/>
 						<Route path="/Kolbowe" element = {<Kolbowe/>}/>
 						<Route path="/Przelewowe" element = {<Przelewowe/>}/>
+=======
+>>>>>>> 98a69c8f072c75003617c341a459b79d50f2ea7a
 					</Routes>
 				</div>
 				<Footer />
