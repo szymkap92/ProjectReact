@@ -30,10 +30,9 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-<<<<<<< HEAD
+
     "vite": "^5.2.11"
-=======
-    "vite": "^5.2.0"
->>>>>>> 98a69c8f072c75003617c341a459b79d50f2ea7a
+
   }
 }
+

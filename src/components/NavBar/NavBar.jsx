@@ -24,11 +24,7 @@ export function NavBar() {
 							<NavDropdown.Item href="/Coffee">
 								Kawa ziarnista
 							</NavDropdown.Item>
-<<<<<<< HEAD
 							<NavDropdown.Item href="/CoffeeM">Kawa mielona</NavDropdown.Item>
-=======
-							<NavDropdown.Item href="/KawaMielona">Kawa mielona</NavDropdown.Item>
->>>>>>> 98a69c8f072c75003617c341a459b79d50f2ea7a
 							<NavDropdown.Item href="/Accessories">
 								Akcesoria do kawy
 							</NavDropdown.Item>
@@ -46,7 +42,6 @@ export function NavBar() {
 							
 						</NavDropdown>
 						<NavDropdown title="Ekspresy do kawy" id="basic-nav-dropdown">
-<<<<<<< HEAD
 							<NavDropdown.Item href="/Automatic">
 							Ekspresy automatyczne
 							</NavDropdown.Item>
@@ -55,16 +50,6 @@ export function NavBar() {
 								Ekspresy kapsułkowe
 							</NavDropdown.Item>
 							<NavDropdown.Item href="/Przelewowe">Ekspresy przelewowe</NavDropdown.Item>
-=======
-							<NavDropdown.Item href="/Coffee">
-							Ekspresy automatyczne
-							</NavDropdown.Item>
-							<NavDropdown.Item href="/KawaMielona">Ekspresy kolbowe</NavDropdown.Item>
-							<NavDropdown.Item href="/Accessories">
-								Ekspresy kapsułkowe
-							</NavDropdown.Item>
-							<NavDropdown.Item href="/Tea">Ekspresy przelewowe</NavDropdown.Item>
->>>>>>> 98a69c8f072c75003617c341a459b79d50f2ea7a
 							
 
 							

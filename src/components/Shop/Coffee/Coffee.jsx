@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Button from 'react-bootstrap/Button';
@@ -31,14 +30,3 @@ export function Coffee() {
         </Container>
     );
 }
-=======
-import Container from "react-bootstrap/Container";
-
-export function Coffee() {
-    return <>
-    <Container>
-          <h1>Kawa w ziarnach</h1>
-    </Container>
-        </>
-}
->>>>>>> 98a69c8f072c75003617c341a459b79d50f2ea7a
