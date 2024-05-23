@@ -1,0 +1,55 @@
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.sectionSubtitle {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #666;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formLabel {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.formControl {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formTextarea {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

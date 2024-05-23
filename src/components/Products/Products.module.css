@@ -1,0 +1,149 @@
+.cardContainer {
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .cardImage {
+	transition: transform 0.4s ease-in-out;
+  }
+  
+  .cardImage:hover {
+	transform: scale(0.9);
+  }
+  
+  .card {
+	transition: box-shadow 0.6s ease-in-out;
+	border-radius: 8px;
+	background-color: #f8f9fa;
+	box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .textContainer {
+	width: 100%;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+  }
+  
+  .textContainer h1 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #333;
+  }
+  
+  .carouselWrapper {
+	width: 100vw;
+	margin-left: calc(-50vw + 50%);
+  }
+  
+  .carousel .carousel-item {
+	width: 100vw;
+  }
+  
+  .carousel img {
+	width: 100%;
+	object-fit: cover;
+	height: 500px;
+  }
+  
+  .productCards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+  }
+  
+  .promotionHeader {
+	text-align: center;
+	margin-bottom: 40px;
+  }
+  
+  .bazzaraHeader {
+	text-align: center;
+	margin-top: 40px; /* Added space above the header */
+	margin-bottom: 20px; /* Added space below the header */
+  }
+  
+  .imageContainer {
+	width: 100vw; /* Make the container full width */
+	margin-left: calc(-50vw + 50%); /* Center the container */
+	margin-bottom: 40px; /* Added space below the image */
+  }
+  
+  .bazzaraImage {
+	width: 100%; /* Make the image take full width of the container */
+	height: auto;
+	border-radius: 8px;
+  }
+  
+  .customCard {
+	border: none;
+	box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
+	margin-top: 40px; /* Add space above the custom card */
+  }
+  
+  .cardImage {
+	width: 100%;
+	height: auto;
+	max-height: 400px; /* You can adjust this value as needed */
+	object-fit: cover;
+  }
+  
+  .cardTitle {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	text-align: center;
+  }
+  
+  .cardText {
+	font-size: 1rem;
+	color: #333;
+	margin-bottom: 0.5rem;
+  }
+  
+  .parallax {
+	background-image: url('../../assets/glowna.jpg');
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+  }
+  
+  .parallaxText {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+  }
+  
+  .parallaxText h2 {
+	font-size: 1rem; /* Smaller font size */
+	margin-bottom: 0.5rem;
+  }
+  
+  .parallaxText h3 {
+	font-size: 0.875rem; /* Smaller font size */
+	margin-bottom: 0.5rem;
+  }
+  
+  .parallaxText p {
+	font-size: 0.75rem; /* Smaller font size */
+	margin-bottom: 0.5rem;
+  }
+  

@@ -1,0 +1,13 @@
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.dropdownMenu {
+    margin-left: 20px; /* Adjust the margin as needed */
+}
