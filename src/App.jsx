@@ -20,6 +20,7 @@ import { Kolbowe } from "./components/CoffeeMachine/Kolbowe/Kolbowe";
 import { Przelewowe } from "./components/CoffeeMachine/Przelewowe/Przelewowe";
 import { Contact } from "./components/Contact/Contact";
 import { Raty } from "./components/Raty/Raty";
+import { Leasing } from "./components/Leasing/Leasing";
 
 function App() {
 	return (
@@ -44,6 +45,7 @@ function App() {
 						<Route path="/Przelewowe" element={<Przelewowe />} />
 						<Route path="/Contact" element={<Contact />} />
 						<Route path="/Raty" element={<Raty />} />
+						<Route path="/Leasing" element={<Leasing />} />
 					</Routes>
 				</div>
 				<Footer />

@@ -53,3 +53,13 @@
 .button:hover {
   background-color: #0056b3;
 }
+
+.inputField {
+  margin: 10px 0;
+}
+
+.inputField:focus {
+  outline: none !important;
+  border-color: #000000 !important; /* Czarny kolor dla ramki */
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.6) !important; /* Szary cień */
+}

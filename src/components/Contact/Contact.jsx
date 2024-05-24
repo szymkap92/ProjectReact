@@ -24,7 +24,7 @@ export function Contact() {
                   <Form.Control
                     type="text"
                     placeholder="Imię i nazwisko"
-                    className={styles.formControl}
+                    className={`${styles.formControl} ${styles.inputField}`}
                   />
                 </Form.Group>
               </Col>
@@ -34,7 +34,7 @@ export function Contact() {
                   <Form.Control
                     type="email"
                     placeholder="Adres e-mail"
-                    className={styles.formControl}
+                    className={`${styles.formControl} ${styles.inputField}`}
                   />
                 </Form.Group>
               </Col>
@@ -46,7 +46,7 @@ export function Contact() {
                   <Form.Control
                     type="text"
                     placeholder="Telefon kontaktowy"
-                    className={styles.formControl}
+                    className={`${styles.formControl} ${styles.inputField}`}
                   />
                 </Form.Group>
               </Col>
@@ -56,7 +56,7 @@ export function Contact() {
                   <Form.Control
                     type="text"
                     placeholder="Temat wiadomości"
-                    className={styles.formControl}
+                    className={`${styles.formControl} ${styles.inputField}`}
                   />
                 </Form.Group>
               </Col>
@@ -67,7 +67,7 @@ export function Contact() {
                 as="textarea"
                 rows={5}
                 placeholder="Twoja wiadomość"
-                className={styles.formControl}
+                className={`${styles.formControl} ${styles.inputField}`}
               />
             </Form.Group>
             <Button variant="secondary" type="submit" className={styles.button}>

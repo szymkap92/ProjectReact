@@ -22,10 +22,12 @@
 .icon:hover,
 .icon:focus {
   color: rgb(255, 102, 0);
+ 
 }
 
 
 .orangeText {
 	color: rgb(212, 85, 0);
+	
 }
 

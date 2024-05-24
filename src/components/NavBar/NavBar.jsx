@@ -76,7 +76,7 @@ export function NavBar() {
                 Kody rabatowe
               </NavDropdown.Item>
               <NavDropdown.Item href="/Raty">Raty</NavDropdown.Item>
-              <NavDropdown.Item href="/returns">Leasing</NavDropdown.Item>
+              <NavDropdown.Item href="/Leasing">Leasing</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

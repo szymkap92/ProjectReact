@@ -100,21 +100,31 @@ export function Raty() {
         </li>
       </ul>
 
-      <h2 className={styles.centerAlign}>
-        PODZIEL SIĘ SWOIM KOMENTARZEM Z INNYMI
-      </h2>
-
       <div className={styles.newsletter}>
         <h3>ZAPISZ SIĘ NA NEWSLETTER</h3>
         <form className={styles.newsletterForm}>
-          <input type="text" placeholder="Wpisz imię" className={styles.inputField} />
-          <input type="email" placeholder="Wpisz adres email" className={styles.inputField} />
-          <button type="submit" className={styles.submitButton}>Zapisz się</button>
-          <button type="button" className={styles.unsubscribeButton}>Wypisz się</button>
+          <input
+            type="text"
+            placeholder="Wpisz imię"
+            className={styles.inputField}
+          />
+          <input
+            type="email"
+            placeholder="Wpisz adres email"
+            className={styles.inputField}
+          />
+          <button type="submit" className={styles.submitButton}>
+            Zapisz się
+          </button>
+          <button type="button" className={styles.unsubscribeButton}>
+            Wypisz się
+          </button>
         </form>
         <div className={styles.clause}>
           <input type="checkbox" id="agreement" />
-          <label htmlFor="agreement">Wyrażam zgodę na przetwarzanie moich danych osobowych.</label>
+          <label htmlFor="agreement">
+            Wyrażam zgodę na przetwarzanie moich danych osobowych.
+          </label>
         </div>
       </div>
     </div>
